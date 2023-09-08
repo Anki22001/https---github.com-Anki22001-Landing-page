@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle</title>
+    <style>
+        .canvasClass{
+            height:100vh;
+            width:100vw;
+            display:grid;
+            place-items: center;
+        }
+        #canvasId{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="canvasClass">
+        <canvas id="canvasId" ></canvas>
+    </div>
+    <script>
+        const rect=document.getElementById("canvasId");
+        const context=rect.getContext("2d");
+        const height=600;
+        const width=400;
+        canvas.height=height;
+        canvas.width=width;
+        // creat  rect
+        
+        // document.write(context);
+        context.fillStyle="blue";
+        context.fillRect(0,0,width,height);
+    </script>
+</body>
+</html>

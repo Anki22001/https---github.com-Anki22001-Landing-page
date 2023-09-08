@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+    <style>
+        #card1{
+            height: 300px;
+            width: 300px;
+           margin-left: 550px;
+           margin-top: 200px;
+        }
+        body{
+            background-image: url("box7_image.jpg");
+            justify-content: center;
+            align-items: center;
+        }
+      /* .background-image{
+         margin-left: 200px;
+         margin-right: 200px;
+         margin-top: 200px;
+         margin-bottom: 200px;
+      } */
+         
+    </style>
+</head>
+<body>
+   <div style="height: 300px;">
+    <img id="card1"src="passport_photofinal1.jpg" alt="show image">
+   </div>
+   <div height="300px">
+      <h2>welcome home</h2>
+   </div>
+   <div height="550px">
+      <h2>hloo beta</h2>
+   </div>
+  <script type="text/javascript">
+     $(document).ready(function(){
+        $(window).scroll(function(){
+           var positiontop = $(document).scrollTop();
+           console.log(positiontop);
+        });
+     });
+  </script> 
+</body>
+</html>
